@@ -2,7 +2,7 @@
 
 ![alt text](images/icon.svg)
 
-## Installation & Running
+## Installation + Running
 Make sure you have [python](https://www.python.org/) installed, if you don't then uh um yeah, get that installed!
 <br>
 Install the latest [vJoy](https://sourceforge.net/projects/vjoystick/) program and drivers (windows only I think, sorry)
