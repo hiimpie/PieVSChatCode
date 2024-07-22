@@ -12,7 +12,7 @@ bot = Bot()
 #   Action
 
 # ============================
-# DRIVING
+# DRIVING (Temp Solutions until LT AND RT Work without stopping every other command)
 # ============================
 
 # ACCELERATE
@@ -56,7 +56,7 @@ def act(msg):
 
 @cmd(bot, "a")
 def act(msg):
-    #Releases it if it's already been held down
+    #Releases it if it's already been held down (from driving)
     ReleaseButton(XBOX_A)
     time.sleep(0.1)
     PressButton(XBOX_A, 0.2)
@@ -64,7 +64,7 @@ def act(msg):
 
 @cmd(bot, "b")
 def act(msg):
-    #Releases it if it's already been held down
+    #Releases it if it's already been held down (from driving)
     ReleaseButton(XBOX_B)
     time.sleep(0.1)
     PressButton(XBOX_B, 0.2)
