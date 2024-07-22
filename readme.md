@@ -40,12 +40,12 @@ It's currently limited because I have bugs but if you can fix these bugs I'll be
 def act(msg):
     print(msg)
 ```
-> Explained...
+> Explained...<br>
+> `@cmd(bot, "cmdname")` - Creates the command, <b>`cmdname`</b> is what you send in chat for the action to happen.<br>
+> `def act(msg)` - Sets up the action to run.<br>
+> `print(msg)` - Outputs what caused the action to run which is `cmdname`.
+> 
 <br>
-`@cmd(bot, "cmdname")` - Creates the command, <b>`cmdname`</b> is what you send in chat for the action to happen.<br>
-`def act(msg)` - Sets up the action to run.<br>
-`print(msg)` - Outputs what caused the action to run which is `cmdname`.
-
 ### XBOX 360 Virtual Controller
 
 > ## Buttons
@@ -57,8 +57,7 @@ def act(msg):
     PressButton(BUTTON, TIME)
     print(msg)
 ```
-> Explained...
-<br>
+> Explained...<br>
 > `PressButton(BUTTON, TIME)` - It pressses `BUTTON` and releases it after `TIME` in seconds<br>
 > `BUTTON` - Buttons are found at the list below but examples are `XBOX_A` AND `XBOX_Y`<br>
 > `TIME` - Is a set amount of time in seconds, examples are `0.2` and `2`
@@ -73,8 +72,7 @@ def act(msg):
     print(msg)
 ```
 
-> Explained...
-<br>
+> Explained...<br>
 > `HoldButton(BUTTON)` - Holds down `BUTTON`<br>
 > `BUTTON` - Buttons are found at the list below but examples are `XBOX_A` AND `XBOX_Y`<br>
 
@@ -88,8 +86,7 @@ def act(msg):
     print(msg)
 ```
 
-> Explained...
-<br>
+> Explained...<br>
 > `ReleaseButton(BUTTON)` - Releases `BUTTON`<br>
 > `BUTTON` - Buttons are found at the list below but examples are `XBOX_A` AND `XBOX_Y`<br>
 
@@ -105,8 +102,7 @@ def act(msg):
     print(msg)
 ```
 
-> Explained...
-<br>
+> Explained...<br>
 > `XAxis(DIRECTION)` - Moves X Axis Joystick to `DIRECTION`<br>
 > `DIRECTIONS` - Directions are found at the list below but examples are `XBOX_AXISL` and `XBOX_AXISR`<br>
 
