@@ -59,9 +59,9 @@ def act(msg):
 ```
 > Explained...
 <br>
-`PressButton(BUTTON, TIME)` - It pressses `BUTTON` and releases it after `TIME` in seconds<br>
-`BUTTON` - Buttons are found at the list below but examples are `XBOX_A` AND `XBOX_Y`<br>
-`TIME` - Is a set amount of time in seconds, examples are `0.2` and `2`
+> `PressButton(BUTTON, TIME)` - It pressses `BUTTON` and releases it after `TIME` in seconds<br>
+> `BUTTON` - Buttons are found at the list below but examples are `XBOX_A` AND `XBOX_Y`<br>
+> `TIME` - Is a set amount of time in seconds, examples are `0.2` and `2`
 
 <br>
 
@@ -75,8 +75,8 @@ def act(msg):
 
 > Explained...
 <br>
-`HoldButton(BUTTON)` - Holds down `BUTTON`<br>
-`BUTTON` - Buttons are found at the list below but examples are `XBOX_A` AND `XBOX_Y`<br>
+> `HoldButton(BUTTON)` - Holds down `BUTTON`<br>
+> `BUTTON` - Buttons are found at the list below but examples are `XBOX_A` AND `XBOX_Y`<br>
 
 <br>
 
@@ -90,8 +90,8 @@ def act(msg):
 
 > Explained...
 <br>
-`ReleaseButton(BUTTON)` - Releases `BUTTON`<br>
-`BUTTON` - Buttons are found at the list below but examples are `XBOX_A` AND `XBOX_Y`<br>
+> `ReleaseButton(BUTTON)` - Releases `BUTTON`<br>
+> `BUTTON` - Buttons are found at the list below but examples are `XBOX_A` AND `XBOX_Y`<br>
 
 <br>
 
@@ -107,8 +107,8 @@ def act(msg):
 
 > Explained...
 <br>
-`XAxis(DIRECTION)` - Moves X Axis Joystick to `DIRECTION`<br>
-`DIRECTIONS` - Directions are found at the list below but examples are `XBOX_AXISL` and `XBOX_AXISR`<br>
+> `XAxis(DIRECTION)` - Moves X Axis Joystick to `DIRECTION`<br>
+> `DIRECTIONS` - Directions are found at the list below but examples are `XBOX_AXISL` and `XBOX_AXISR`<br>
 
 <br><br>
 
