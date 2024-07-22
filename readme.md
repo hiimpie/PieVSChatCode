@@ -20,8 +20,8 @@ Once you've downloaded python, vJoy and put this somewhere where you won't forge
 pip install -r requirements.txt
 `
 <br><br>
-Then [grab yourself a twitch token](https://twitchapps.com/tmi/), copy and paste it next to .env `TWITCH_TOKEN=`, also remove `Oauth:` from the start, otherwise it won't work!<br>
-Add your twitch channel next to `TWITCH_CHANNEL=`
+Then [grab yourself a twitch token](https://twitchapps.com/tmi/), create a .env file in the same folder as the rest of this jazz and write in `TWITCH_TOKEN=` and paste your token next to it (REMOVE `OAUTH:`)<br>
+Then create another line and write `TWITCH_CHANNEL=` and put your channal next to it
 
 ## Using Template.py
 I'd suggest you copy the template file and create a new so you've got a base to work off from everytime!<br>
